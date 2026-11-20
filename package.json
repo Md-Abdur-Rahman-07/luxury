@@ -1,0 +1,11 @@
+{
+  "name": "luxury-website-showcase",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-site.mjs",
+    "check": "node scripts/check-site.mjs",
+    "start": "php -S 127.0.0.1:4173 -t ."
+  },
+  "engines": { "node": ">=20" }
+}
